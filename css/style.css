@@ -1,0 +1,35 @@
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: blueviolet;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: green;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+h1 {
+  background-color: yellow;
+  color: burlywood;
+  color: blueviolet;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  background-color: burlywood;
+  padding: 10px 30px 20px 30px;
+  margin: 10px 30px 20px 30px;
+}
+/*# sourceMappingURL=style.css.map */

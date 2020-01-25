@@ -1,0 +1,27 @@
+@mixin box{
+  color: blueviolet;
+  font-weight:bold;
+  text-align: center;
+  &:hover{
+    color: green;;
+}
+nav {
+    ul {
+      
+      li {
+        display: inline-block;
+        a {
+          @include box
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+          color:blue;
+          font-size: 20px;
+          &:hover{
+            color:red;
+        }
+      }
+    }
+    
+  }
+}
